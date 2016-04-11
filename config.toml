@@ -1,0 +1,99 @@
+baseurl = "https://yuji.im/cn/"
+languageCode = "zh-Hans"
+title = "连成线"
+author = "沈宇基"
+# Shown in the side menu
+copyright = "&copy; 2016"
+canonifyurls = true
+#RelativeURLs = true
+paginate = 7
+theme = "blackburn"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  locale = "zh-Hans"
+  # Shown in the home page
+  subtitle = "连成线"
+  author = "沈宇基"
+  brand = ""
+  googleAnalytics = "UA-59613226-1"
+  disqus = "shenyuji"
+  # CSS name for highlight.js
+  # highlightjs = "solarizedlight"
+  dateFormat = "2006-01-02"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "主页"
+    pre = "<i class='icon-home'></i>"
+    weight = 0
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "归档"
+    pre = "<i class='icon-box'></i>"
+    weight = 1
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "分类"
+    pre = "<i class='icon-folder'></i>"
+    weight = 2
+    identifier = "topic"
+    url = "/topics/"
+  [[menu.main]]
+    name = "标签"
+    pre = "<i class='icon-tags'></i>"
+    weight = 3
+    identifier = "tag"
+    url = "/tags/"
+
+[intro]
+  # Shown in the side menu.
+  [[menu.intro]]
+    name = "关于"
+    pre = "<i class='icon-user'></i>"
+    weight = 0
+    url = "/about/"
+  [[menu.intro]]
+    name = "作品"
+    pre = "<i class='icon-suitcase'></i>"
+    weight = 1
+    url = "/portfolio/"
+
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  # twitter = "*"
+  # facebook = "*"
+  # googleplus = "*"
+  # weibo = "*"
+
+  # SNS photo/video sharing
+  # instagram = "*"
+  # flickr = "*"
+  # pinterest = "*"
+  # youtube = "*"
+  # vimeo = "*"
+  # vine = "*"
+  # slideshare = "*"
+
+  # SNS career oriented
+  linkedin = "yujishen"
+  # xing = "*"
+
+  # SNS news
+  # reddit = "*"
+  # hackernews = "*"
+
+  # Techie
+  github = "yujishen"
+  # bitbucket = "*"
+  # stackoverflow = "*"
